@@ -1,0 +1,81 @@
+$mycolor: blue;
+$mycolor1: lightblue;
+$colorH: #4CAF50;
+$maxW: 60em;
+$footer: green;
+$borderM: 1px solid $colorH;
+$fontS: 18px;
+$fontSt: italic;
+$myString: "/ þetta er ekki verkefni 3 þetta er 4 hahahhahahahha";
+$padding1: 2% 2%;
+$textA: center;
+$margin1: 0 0 5% 0;
+
+
+
+header {
+    color: $mycolor;
+    border: $borderM;
+    font-family: $fontSt;
+    font-size: $fontS;
+}
+
+#mypara:after {
+    content: $myString;
+}
+a {
+   color: $colorH; 
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: $textA;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: $fontS;
+}
+
+.topnav a:hover {
+  background-color: $colorH;
+  color: $mycolor1;
+}
+
+.topnav a.active {
+  background-color: $colorH;
+  color: white;
+}
+
+.adal {
+    border: $borderM;
+    font: $fontS;
+    padding: $padding1;
+    background-color: $mycolor1;
+    margin: $margin1;
+}
+h3 {
+    color: $footer;
+}
+
+@mixin allnew {
+    border: $borderM;
+    padding: $padding1;
+    font-family: $fontSt;
+    h2{
+        color: invert($mycolor, 50%)
+    }
+    h3{
+        color: lighten($mycolor, 40%)
+    }
+    h4{
+        color: darken($mycolor,30%)
+    }
+}
+
+.midd {
+    @include allnew;
+}
