@@ -1,0 +1,55 @@
+@charset "UTF-8";
+header {
+  color: blue;
+  border: 1px solid #4CAF50;
+  font-family: italic;
+  font-size: 18px; }
+
+#mypara:after {
+  content: "/ þetta er ekki verkefni 3 þetta er 4 hahahhahahahha"; }
+
+a {
+  color: #4CAF50; }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333; }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px; }
+
+.topnav a:hover {
+  background-color: #4CAF50;
+  color: lightblue; }
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white; }
+
+.adal {
+  border: 1px solid #4CAF50;
+  font: 18px;
+  padding: 2% 2%;
+  background-color: lightblue;
+  margin: 0 0 5% 0; }
+
+h3 {
+  color: green; }
+
+.midd {
+  border: 1px solid #4CAF50;
+  padding: 2% 2%;
+  font-family: italic; }
+  .midd h2 {
+    color: gray; }
+  .midd h3 {
+    color: #ccccff; }
+  .midd h4 {
+    color: #000066; }
+
+/*# sourceMappingURL=verk1css2.css.map */
