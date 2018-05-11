@@ -1,3 +1,3 @@
 # tumith.github.io
 ___
-[linkur á síðu](https://tumith.github.io/lokaverkefni/index.html)
+[linkur á lokaverkefni 2018](https://tumith.github.io/lokaverkefni/index.html)
