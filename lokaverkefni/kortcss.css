@@ -1118,7 +1118,7 @@ input:checked ~ .modal__overlay {
   color: black;
   background-color: white;
   text-align: justify;
-  padding: 4%;
+  padding: 3%;
 }
 .modal1 input:focus ~ label {
   transform: scale(0.97);
