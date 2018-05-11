@@ -26,7 +26,10 @@ body{
 
 }
 .bo{
-    margin-left: 30%;
+    margin-left: 11%;
+}
+.fo{
+    margin-left: -55px;
 }
 .show {
     display: block;
