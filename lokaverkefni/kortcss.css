@@ -1110,7 +1110,6 @@ input:checked ~ .modal__overlay {
 }
 .modal__wrap1 h2 {
   color: black;
-  background: white;
   margin-bottom: none;
   text-transform: uppercase;
   padding: 1%;
