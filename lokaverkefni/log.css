@@ -4,6 +4,7 @@ body{
     background:  #fff3e6;
     background: linear-gradient(#cce6ff, #fff3e6, #fff3e6, #fff3e6);
     max-width: 60em;
+    background-repeat: no-repeat;
     margin: 0 auto;
 }
 .navbar {
