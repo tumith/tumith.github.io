@@ -1,0 +1,606 @@
+$bcol:black;
+$wcol: white;
+$lef: left;
+$rig: right;
+$blo: block;
+$tigf: 5%;
+$no: none;
+$mid: center;
+$colu: column;
+$inh: inherit;
+$abs: absolute;
+$tigf2: 3%;
+$fle: flex;
+$minds: 10%;
+
+@media screen and (max-width: 37.5em){
+
+body{
+    background: white;
+    background-repeat: no-repeat;
+    background: linear-gradient(#4dffff,white, #ffd700);
+}
+.firstm{
+    margin-top: 4%;
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: $lef;
+    font-size: 40px;
+    height: 12%;
+    text-align: $mid;
+    justify-content: $mid;
+    padding: 14px 113px;
+    text-decoration: $no;
+}
+
+.dropdown {
+    float: $lef;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    height: 80px;
+    width: 80px;   
+    border: $no;
+    outline: $no;
+    color: $bcol;
+    padding: 14px 16px;
+    background-color: $inh;
+    font-family: $inh;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: none;
+}
+
+.dropdown-content {
+    display: $no;
+    position: $abs;
+    color: black;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: $no;
+    color: $bcol;
+    padding: 12px 16px;
+    text-decoration: $no;
+    display: $blo;
+    text-align: $lef;
+}
+
+.dropdown-content a:hover {
+    background-color: $no;
+}
+a{
+    text-decoration: $no;
+    color: $bcol;
+}
+.show {
+    display: $blo;
+}
+.img{
+    margin: 0 8%;
+    width: 12%;
+    height: 12%;
+}
+.img1{
+    margin: 55px 4%;
+    width: 90px;
+    height: 97px;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.more{
+    margin-left: -4%;
+    margin-right: -163px;
+    color: $bcol;
+}
+li{
+    list-style: $no;
+    display: $blo;
+    padding-bottom: 20px;
+    float: $lef;
+    justify-content: $mid;
+    text-align: $mid;
+}
+.lag{
+    margin-top: 85%;
+    margin-left: 16%;
+}
+.lag2{
+    margin-bottom: 0;
+    margin: -450px;
+    margin-left: 50%;
+    float: $lef;
+}
+.pop{
+    float: $rig;
+    margin: 0 70%;
+}
+.elvisalbum1{
+    width: $minds;
+    float: $lef;
+    margin: -134px 500px;
+}
+.mrsheep1{
+    width: $minds;
+    float: $lef;
+    margin: -134px 1260px;
+}
+.rok{
+    float: $lef;
+    margin: -111px 57%;
+}
+h1{
+    justify-content: $mid;
+    text-align: $mid;
+}
+.frontpeysa{
+    list-style: $no;
+    display: $blo;
+    order: 1;
+    padding: 1%;
+    background-color: $bcol;
+    width: 15%;
+    height: 15%;
+    float: $lef;
+    margin: 0 0 0 31%;
+}
+.frontpeysa:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.frontiphone:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.frontiphone{
+    list-style: $no;
+    display: $blo;
+    order: 2;
+    margin: 0 3%;
+    padding: 1%;
+    background-color: $bcol;
+    width: 13.6%;
+    height: 13.6%;
+    float: $lef;
+}
+.kort{
+    margin-right: 22%;
+    float: $rig;
+    margin-top: 8%;
+}
+
+footer{
+    float: $lef;
+    margin-top: 18%;
+    background-color: $no;
+}
+.fotur1{
+    width: $tigf2;
+    height: $tigf;
+    margin: 4% 4% 4% 16%;
+}
+.fotur2{
+    width: $tigf2;
+    height: $tigf;
+    margin: 4% 6%;
+}
+.fotur3{
+    width: $tigf2;
+    height: $tigf;
+    margin: 4% 6%;
+}
+.fotur4{
+    width: $tigf2;
+    height: $tigf;
+    margin: 4%;
+}
+}
+@media screen and (min-width: 37.5em) and (max-width: 68em){
+
+body{
+    background: white;
+    background-repeat: no-repeat;
+    background: linear-gradient(#4dffff,white, #ffd700);
+}
+.firstm{
+    margin-top: 4%;
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: $lef;
+    font-size: 40px;
+    height: 12%;
+    text-align: $mid;
+    justify-content: $mid;
+    padding: 14px 113px;
+    text-decoration: $no;
+}
+
+.dropdown {
+    float: $lef;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    height: 80px;
+    width: 80px;   
+    border: $no;
+    outline: $no;
+    color: $bcol;
+    padding: 14px 16px;
+    background-color: $inh;
+    font-family: $inh;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: none;
+}
+
+.dropdown-content {
+    display: $no;
+    position: $abs;
+    color: black;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: $no;
+    color: $bcol;
+    padding: 12px 16px;
+    text-decoration: $no;
+    display: $blo;
+    text-align: $lef;
+}
+
+.dropdown-content a:hover {
+    background-color: $no;
+}
+a{
+    text-decoration: $no;
+    color: $bcol;
+}
+.show {
+    display: $blo;
+}
+.img{
+    margin: 0 8%;
+    width: 12%;
+    height: 12%;
+}
+.img1{
+    margin: 55px 4%;
+    width: 90px;
+    height: 97px;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.more{
+    margin-left: -4%;
+    margin-right: -163px;
+    color: $bcol;
+}
+li{
+    list-style: $no;
+    display: $blo;
+    padding-bottom: 20px;
+    float: $lef;
+    justify-content: $mid;
+    text-align: $mid;
+}
+.lag{
+    margin-top: 85%;
+    margin-left: 16%;
+}
+.lag2{
+    margin-bottom: 0;
+    margin: -450px;
+    margin-left: 50%;
+    float: $lef;
+}
+.pop{
+    float: $rig;
+    margin: 0 70%;
+}
+.elvisalbum1{
+    width: $minds;
+    float: $lef;
+    margin: -134px 500px;
+}
+.mrsheep1{
+    width: $minds;
+    float: $lef;
+    margin: -134px 1260px;
+}
+.rok{
+    float: $lef;
+    margin: -111px 57%;
+}
+h1{
+    justify-content: $mid;
+    text-align: $mid;
+}
+.frontpeysa{
+    list-style: $no;
+    display: $blo;
+    order: 1;
+    padding: 1%;
+    background-color: $bcol;
+    width: 15%;
+    height: 15%;
+    float: $lef;
+    margin: 0 0 0 31%;
+}
+.frontpeysa:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.frontiphone:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.frontiphone{
+    list-style: $no;
+    display: $blo;
+    order: 2;
+    margin: 0 3%;
+    padding: 1%;
+    background-color: $bcol;
+    width: 13.6%;
+    height: 13.6%;
+    float: $lef;
+}
+.kort{
+    margin-right: 22%;
+    float: $rig;
+    margin-top: 8%;
+}
+
+footer{
+    float: $lef;
+    background-color: $no;
+    margin-top: 18%;
+}
+.fotur1{
+    width: $tigf2;
+    height: $tigf;
+    margin: 4% 4% 4% 16%;
+}
+.fotur2{
+    width: $tigf2;
+    height: $tigf;
+    margin: 4% 6%;
+}
+.fotur3{
+    width: $tigf2;
+    height: $tigf;
+    margin: 4% 6%;
+}
+.fotur4{
+    width: $tigf2;
+    height: $tigf;
+    margin: 4%;
+}
+}
+
+@media screen and (min-width: 68em){
+
+body{
+    background: white;
+    background-repeat: no-repeat;
+    background: linear-gradient(#4dffff,white, white,#ffd700);
+}
+.firstm{
+    margin-top: 4%;
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: $lef;
+    font-size: 40px;
+    height: 12%;
+    text-align: $mid;
+    justify-content: $mid;
+    padding: 14px 113px;
+    text-decoration: $no;
+}
+
+.dropdown {
+    float: $lef;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    height: 80px;
+    width: 80px;   
+    border: $no;
+    outline: $no;
+    color: $bcol;
+    padding: 14px 16px;
+    background-color: $inh;
+    font-family: $inh;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: none;
+}
+
+.dropdown-content {
+    display: $no;
+    position: $abs;
+    color: black;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: $no;
+    color: $bcol;
+    padding: 12px 16px;
+    text-decoration: $no;
+    display: $blo;
+    text-align: $lef;
+}
+
+.dropdown-content a:hover {
+    background-color: $no;
+}
+a{
+    text-decoration: $no;
+    color: $bcol;
+}
+.show {
+    display: $blo;
+}
+.img{
+    margin: 0 8%;
+    width: 12%;
+    height: 12%;
+}
+.img1{
+    margin: 55px 4%;
+    width: 120px;
+    height: 120px;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.more{
+    margin-left: 22%;
+    margin-right: -163px;
+    color: $bcol;
+}
+li{
+    list-style: $no;
+    display: $blo;
+    padding-bottom: 20px;
+    float: $lef;
+    justify-content: $mid;
+    text-align: $mid;
+}
+.lag{
+    margin-top: 30%;
+    margin-left: 10%;
+}
+.lag2{
+    margin-bottom: 0;
+    margin: -450px;
+    margin-left: 70%;
+    float: $lef;
+}
+.pop{
+    float: $rig;
+    margin: 0 70%;
+}
+.elvisalbum1{
+    width: $minds;
+    float: $lef;
+    margin: -134px 500px;
+}
+.mrsheep1{
+    width: $minds;
+    float: $lef;
+    margin: -134px 1260px;
+}
+.rok{
+    float: $lef;
+    margin: -111px 57%;
+}
+h1{
+    justify-content: $mid;
+    text-align: $mid;
+}
+.frontpeysa{
+    list-style: $no;
+    display: $blo;
+    order: 1;
+    padding: 1%;
+    background-color: $bcol;
+    width: 15%;
+    height: 15%;
+    float: $lef;
+    margin: 0 0 0 31%;
+}
+.frontpeysa:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.frontiphone:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.frontiphone{
+    list-style: $no;
+    display: $blo;
+    order: 2;
+    margin: 0 3%;
+    padding: 1%;
+    background-color: $bcol;
+    width: 13.6%;
+    height: 13.6%;
+    float: $lef;
+}
+.kort{
+    margin-right: 36%;
+    margin-top: 5%;
+    float: $rig;
+}
+
+footer{
+    float: $lef;
+    background-color: $no;
+}
+.fotur1{
+    width: $tigf2;
+    height: $tigf2;
+    margin: 4% 4% 4% 16%;
+}
+.fotur2{
+    width: $tigf2;
+    height: $tigf2;
+    margin: 4% 6%;
+}
+.fotur3{
+    width: $tigf2;
+    height: $tigf2;
+    margin: 4% 6%;
+}
+.fotur4{
+    width: $tigf2;
+    height: $tigf2;
+    margin: 4%;
+}
+}
